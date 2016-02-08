@@ -11,7 +11,6 @@ import android.bluetooth.BluetoothAdapter;
 import android.widget.Button;
 import android.widget.TextView;
 
-
 public class MainActivity extends ActionBarActivity {
 
     @Override
@@ -41,7 +40,7 @@ public class MainActivity extends ActionBarActivity {
         enter.setEnabled(true);
         Button.OnClickListener listener = new Button.OnClickListener() {
             public void onClick (View v) {
-                Intent intent=new Intent(MainActivity.this,CameraActivity.class);
+                Intent intent = new Intent(MainActivity.this,CameraActivity.class);
                 startActivity(intent);
                 /*
                 *
