@@ -80,5 +80,11 @@
     <orderEntry type="library" exported="" name="appcompat-v7-21.0.3" level="project" />
     <orderEntry type="library" exported="" name="support-annotations-21.0.3" level="project" />
     <orderEntry type="library" exported="" name="support-v4-21.0.3" level="project" />
+    <orderEntry type="library" exported="" name="idslibcm" level="project" />
+    <orderEntry type="library" exported="" name="1_idslibcm" level="project" />
+    <orderEntry type="library" exported="" name="idslibmp" level="project" />
+    <orderEntry type="library" exported="" name="1_idslibmp" level="project" />
+    <orderEntry type="library" exported="" name="idsliblo" level="project" />
+    <orderEntry type="library" exported="" name="1_idsliblo" level="project" />
   </component>
 </module>
