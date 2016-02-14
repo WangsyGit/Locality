@@ -1,0 +1,90 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="0.01"
+        android:background="#0c60ee"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+        
+     <RadioGroup
+         android:id="@+id/radioGroup"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center_vertical"
+         android:orientation="vertical" >
+
+         <TextView
+             android:id="@+id/textView1"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center"
+             android:text="模式："
+             android:textSize="27px" />
+         
+         <RadioButton
+             android:id="@+id/radioButton1"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center"
+             android:layout_marginTop="40dp"
+             android:checked="true"
+             android:textSize="25px"
+             android:text="定位" />
+         
+         <RadioButton
+             android:id="@+id/radioButton2"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center"
+             android:layout_marginTop="40dp"
+             android:textSize="25px"
+             android:text="走失" />
+         
+     </RadioGroup>
+
+    
+
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="0.09"
+        android:orientation="vertical" >
+
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginTop="5dp"
+            android:background="#0c60ee"
+            android:src="@android:drawable/ic_menu_search" />
+
+        <SurfaceView
+            android:id="@+id/surfaceView1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.61" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="10dp"
+            android:background="#0c60ee"
+            android:text=" 详细信息：包括面向方向的店铺信息，当前店铺信息商家广告、是否可以跳转使用第三方支付平台、厕所、咨询台、楼上楼下信息"
+            android:textSize="25px" />
+
+    </LinearLayout>
+
+</LinearLayout>

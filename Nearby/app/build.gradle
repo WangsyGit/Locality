@@ -22,4 +22,10 @@ android {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'com.android.support:appcompat-v7:21.0.3'
+    compile files('libs/java/idslibcm.jar')
+    compile files('libs/java/idsliblo.jar')
+    compile files('libs/java/idslibmp.jar')
+    compile files('libs/idslibcm.jar')
+    compile files('libs/idsliblo.jar')
+    compile files('libs/idslibmp.jar')
 }
